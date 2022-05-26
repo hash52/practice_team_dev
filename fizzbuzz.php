@@ -11,7 +11,7 @@
 
 $max = 100;
 
-for($i = 1; $i < $max; $i++){
+for($i = 1; $i <= $max; $i++){
     if($i % 3 == 0){
         echo "fizz";
     }elseif($i % 5 ==0){
